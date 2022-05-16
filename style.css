@@ -1,0 +1,52 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family:'Times New Roman', Georgia, serif;
+    color: 	#fbbaff;
+    background:#121212;
+}
+
+header{
+    background: #b687e2;
+    color: 	#008282;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    padding-top: 0px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+}
+header h1{
+    text-align: center;
+    padding: 0 0px;
+}
+
